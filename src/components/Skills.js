@@ -32,4 +32,8 @@ const Wrapper = styled.div`
   img {
     height: 50px;
   }
+
+  @media (min-width: 820px) {
+    margin-top: 40px;
+  }
 `;

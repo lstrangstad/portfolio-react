@@ -8,9 +8,10 @@ const AboutMe = () => {
       <h3>Who am I?</h3>
       <p>
         I’m studying Front-End Development at{" "}
-        <a href="www.noroff.com">Noroff</a> in Bergen, Norway. I have a passion
-        for clean code, animations and creating good looking layouts with HTML,
-        CSS and JavaScript etc. <a href="">Let’s make something special!</a>.
+        <a href="http://www.noroff.com">Noroff</a> in Bergen, Norway. I have a
+        passion for clean code, animations and creating good looking layouts
+        with HTML, CSS and JavaScript etc.{" "}
+        <a href="#contact">Let’s make something special!</a>.
       </p>
     </Container>
   );
@@ -35,5 +36,10 @@ const Container = styled.div`
   p {
     font-size: 14px;
     text-align: center;
+    max-width: 350px;
+  }
+
+  @media (min-width: 820px) {
+    margin-top: 40px;
   }
 `;

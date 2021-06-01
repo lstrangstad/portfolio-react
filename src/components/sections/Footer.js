@@ -101,6 +101,10 @@ const ArrowContainer = styled.a`
   animation: upDown 2s infinite ease-in-out;
   cursor: pointer;
 
+  &:hover {
+    background-color: #eaae07;
+  }
+
   @keyframes upDown {
     50% {
       transform: translateY(5px);
@@ -110,8 +114,8 @@ const ArrowContainer = styled.a`
 
 const IconsContainer = styled.div`
   display: flex;
-  justify-content: space-evenly;
-  padding: 20px 0;
+  justify-content: center;
+  padding: 20px;
 `;
 
 const IconBox = styled.div`
@@ -119,9 +123,10 @@ const IconBox = styled.div`
   height: 45px;
   width: 45px;
   display: flex;
-  place-items: center;
+  align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin: 0 20px;
 
   &:hover {
     transform: translateY(3px);

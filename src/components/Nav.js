@@ -43,10 +43,10 @@ const NavBar = styled.nav`
     justify-content: center;
     list-style: none;
     padding: 20px;
+    gap: 20px;
   }
 
   li {
-    padding: 0 10px;
   }
 
   a {
@@ -57,6 +57,13 @@ const NavBar = styled.nav`
     &:hover {
       border-bottom: 1px solid;
       color: #fcba04;
+    }
+  }
+
+  @media (min-width: 820px) {
+    ul {
+      justify-content: left;
+      padding: 20px 40px;
     }
   }
 `;

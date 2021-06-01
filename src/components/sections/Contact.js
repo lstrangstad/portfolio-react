@@ -40,6 +40,7 @@ const Contact = () => {
             placeholder="Message..."
             className="contact__input"
             htmlFor=""
+            rows="10"
           />
           <button className="contact__btn">Send</button>
         </form>
@@ -114,6 +115,19 @@ const Wrapper = styled.div`
       &:hover {
         background-color: #ff785a;
         border: 1px solid #ff785a;
+      }
+    }
+  }
+
+  @media (min-width: 820px) {
+    .contact {
+      padding: 40px;
+      &__form {
+        max-width: 500px;
+      }
+
+      &__title {
+        font-size: 42px;
       }
     }
   }

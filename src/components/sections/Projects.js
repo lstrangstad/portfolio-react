@@ -16,6 +16,12 @@ export default Projects;
 
 const Wrapper = styled.div`
   background-color: #8a9ec7;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
+
+  @media (min-width: 820px) {
+    h2 {
+      font-size: 42px;
+    }
+  }
 `;
