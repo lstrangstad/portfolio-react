@@ -56,7 +56,8 @@ const Card = styled.div`
     width: 50%;
 
     &:hover {
-        background-color: #ff785a;
-        border: 1px solid #ff785a;
+      background-color: #ff785a;
+      border: 1px solid #ff785a;
+    }
   }
 `;
