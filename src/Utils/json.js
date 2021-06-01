@@ -4,15 +4,20 @@ import JS from "../icons/skills-icons/js.svg";
 import React from "../icons/skills-icons/react.svg";
 import AdobeXd from "../icons/skills-icons/adobexd.svg";
 import UiDesign from "../icons/skills-icons/uidesign.svg";
+import Sass from "../icons/skills-icons/sass.svg";
+import Git from "../icons/skills-icons/git.png";
 
 import ecommerce from "../images/ecommerce.png";
 import rickNmorty from "../images/rick-morty.png";
+import spaceX from "../images/spaceX.png";
 
 export const skills = [
   { img: `${HTML}`, skill: "HTML" },
   { img: `${CSS}`, skill: "CSS" },
+  { img: `${Sass}`, skill: "Sass" },
   { img: `${JS}`, skill: "JavaScript" },
   { img: `${React}`, skill: "React" },
+  { img: `${Git}`, skill: "Git" },
   { img: `${AdobeXd}`, skill: "Adobe XD" },
   { img: `${UiDesign}`, skill: "UI/UX Design" },
 ];
@@ -29,5 +34,10 @@ export const projects = [
     title: "Rick & Morty",
     description:
       "A project I have made myself. Using some of the things I have learned from school in react.",
+  },
+  {
+    img: `${spaceX}`,
+    title: "SpaceX project",
+    description: "Vanilla JavaScript project. Using the SpaceX api",
   },
 ];
